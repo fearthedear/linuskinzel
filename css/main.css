@@ -76,7 +76,7 @@ h1 {
 
 .content {
 	width: 70%;
-	margin-left: -10%;
+	margin-left: -15%;
 	margin-top: 200px;
 	z-index: 2;
 }
@@ -134,5 +134,12 @@ h1 {
 		width: 100%;
 		margin-left: 0px;
 		margin-top: 20px;
+	}
+	.video-background {
+		display: none;
+	}
+	#startPage {
+		background: url(../images/start.jpg) center center;
+        background-size: auto 100%!important;
 	}
 }
