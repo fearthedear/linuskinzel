@@ -1,10 +1,15 @@
+var navigationBool = true;
+if (window.screen.width < 500) {
+    navigationBool = false;
+}
+
 $(document).ready(function() {
     $('#fullpage').fullpage({
         //Navigation
         menu: '#menu',
         lockAnchors: false,
         anchors:['start', 'aerial', 'android', 'webdev'],
-        navigation: true,
+        navigation: navigationBool,
         navigationPosition: 'right',
         navigationTooltips: ['Start', 'Aerial', 'Android', 'Webdev'],
         showActiveTooltip: true,
