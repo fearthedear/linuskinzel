@@ -52,7 +52,7 @@ $(document).ready(function() {
         //Design
         controlArrows: true,
         verticalCentered: true,
-        sectionsColor : ['#ccc', '#fff'],
+        sectionsColor : ['black', '#fff'],
         paddingTop: '3em',
         paddingBottom: '10px',
         fixedElements: '#header, .footer',
