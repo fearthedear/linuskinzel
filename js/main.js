@@ -1,6 +1,6 @@
-var navigationBool = true;
+var mobileBool = true;
 if (window.screen.width < 500) {
-    navigationBool = false;
+    mobileBool = false;
 }
 
 $(document).ready(function() {
@@ -9,7 +9,7 @@ $(document).ready(function() {
         menu: '#menu',
         lockAnchors: false,
         anchors:['start', 'aerial', 'android', 'webdev'],
-        navigation: navigationBool,
+        navigation: mobileBool,
         navigationPosition: 'right',
         navigationTooltips: ['Start', 'Aerial', 'Android', 'Webdev'],
         showActiveTooltip: true,
@@ -56,7 +56,7 @@ $(document).ready(function() {
         paddingTop: '3em',
         paddingBottom: '10px',
         fixedElements: '#header, .footer',
-        responsiveWidth: 0,
+        responsiveWidth: 500,
         responsiveHeight: 0,
         responsiveSlides: false,
 

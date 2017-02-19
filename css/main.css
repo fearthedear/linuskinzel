@@ -135,11 +135,17 @@ h1 {
 		margin-left: 0px;
 		margin-top: 20px;
 	}
+	.content h1 {
+		margin-top: -320px;
+	}
 	.video-background {
 		display: none;
 	}
 	#startPage {
 		background: url(../images/start.jpg) center center;
         background-size: auto 100%!important;
+	}
+	#header {
+		height: 125px;
 	}
 }
