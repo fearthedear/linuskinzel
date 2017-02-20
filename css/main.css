@@ -110,9 +110,22 @@ h1 {
 }
 
 #webdevPage {
-	background: url(../images/code.jpg) center center no-repeat;
+	background: url(../images/code.jpg);
     background-size: cover;
     text-align: right;
+}
+
+#androidPage {
+	background-color: #171717;
+}
+
+#phone {
+	max-width: 100%;
+    height: auto;
+    max-height: 500px;
+    position: absolute;
+    right: 100px;
+    bottom: 20%;
 }
 
 #footer {
@@ -152,7 +165,22 @@ h1 {
 		background: url(../images/start.jpg) center center;
         background-size: auto 100%!important;
 	}
+	#aerialPage {
+		background: url(../images/aerial.jpg) center center;
+		background-size: auto 100%!important; 
+	}
+	#webdevPage {
+		background: url(../images/code.jpg);
+		background-size: 400px;
+	}
 	#header {
 		height: 125px;
 	}
+	#phone{
+    margin: 0 auto;
+    position: static;
+  	}
+  	#androidHeadline {
+  		margin-top: 0px;
+  	}
 }
