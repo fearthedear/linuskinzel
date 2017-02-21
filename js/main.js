@@ -89,9 +89,10 @@ $(document).ready(function() {
     });
 
     var contactform =  document.getElementById('contact_form');
-    //contactform.setAttribute('action', '//formspree.io/' + 'linuskinzel' + '@' + 'gmail' + '.' + 'com');
+    contactform.setAttribute('action', '//formspree.io/' + 'linuskinzel' + '@' + 'gmail' + '.' + 'com');
 
-    contactform.submit(function(e) {
+    var $contactForm = $('#contact_form');
+    $contactForm.submit(function(e) {
         e.preventDefault();
         $.ajax({
             url: '//formspree.io/' + 'linuskinzel' + '@' + 'gmail' + '.' + 'com',
