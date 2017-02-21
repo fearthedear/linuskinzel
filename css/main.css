@@ -111,7 +111,7 @@ h1 {
 }
 
 #webdevPage {
-	background: url(../images/code.jpg);
+	background: url(https://d2gp7la54gkohp.cloudfront.net/images/code.jpg);
     background-size: cover;
     text-align: right;
 }
@@ -208,7 +208,7 @@ input#btn_send {
 }
 
 // .icon-facebook {
-// 	background: url(../images/fb_logo.png);
+// 	background: url(https://d2gp7la54gkohp.cloudfront.net/images/fb_logo.png);
 // }
 
 @media (max-width: 1150px) {
@@ -269,15 +269,15 @@ input#btn_send {
 		display: none;
 	}
 	#startPage {
-		background: url(../images/start.jpg) center center;
+		background: url(https://d2gp7la54gkohp.cloudfront.net/images/start.jpg) center center;
         background-size: auto 100%!important;
 	}
 	#aerialPage {
-		background: url(../images/aerial.jpg) center center;
+		background: url(https://d2gp7la54gkohp.cloudfront.net/images/aerial.jpg) center center;
 		background-size: auto 100%!important; 
 	}
 	#webdevPage {
-		background: url(../images/code2.jpg);
+		background: url(https://d2gp7la54gkohp.cloudfront.net/images/code2.jpg);
 		background-size: 400px;
 	}
 	#header {
