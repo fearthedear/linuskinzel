@@ -98,38 +98,50 @@
 		<div class="container-fluid">
 			<div class="row">		  
 
-				<div class="col-sm-6">
+				<div class="col-lg-6">
 
 					<h1>Contact Me</h1>
 						
 					<p>Please feel free to get in touch<span class="hide">, I'll get back to you as soon as possible</span>.</p>	
 					
-					<form id="contact_form" method="post" autocomplete="off" novalidate="novalidate">
+					<form id="contact_form" method="POST" autocomplete="off">
 						<fieldset>						
-							<input name="name" placeholder="name">
-							<input type="email" name="email" placeholder="email">
-							<input name="message" placeholder="message">
+							<input name="name" placeholder="name" type="text">
+							<input type="email" name="_replyto" placeholder="email">
+							<textarea name="message" placeholder="message"></textarea>
+							<input type="hidden" name="_next" value="//site.io/thanks.html" />
+							<input type="hidden" name="_subject" value="Contact on linuskinzel.xyz" />
+							<input type="text" name="_gotcha" style="display:none" />
+							<div>
+								<input type="submit" id="btn_send" value="Send">
+							</div>
 						</fieldset>
 					</form>
 					
 				</div>
 				
 				
-				<div class="col-sm-6">
-					
-				  <h1>latest instagram post</h1>	 	  	
-	
+				<div class="col-lg-6 d-inline-flex flex-row-reverse" id="instagram-col">
+				<div>
+				  <h1>latest instagram post</h1>
+				  <div>
+				  	<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:37.5% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BPd-SIBAcAW/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">south rotterdam</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by Linus (@linuskinzel) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-01-20T01:49:22+00:00">Jan 19, 2017 at 5:49pm PST</time></p></div></blockquote>
+				  </div>
+				 </div>
 
+					<script async defer src="https://platform.instagram.com/en_US/embeds.js"></script>	 	  	
+	
+<!-- 
 					<div class="links">		
 				 		<ul>
-				 		  <li><a class="icon-facebook" title="Find me on Facebook" href="//www.facebook.com/jaybfilm"></a></li>
-				 		  <li><a class="icon-vimeo" title="Find me on Vimeo" href="//vimeo.com/jbee"></a></li>
+				 		  <li><a class="icon-facebook" title="Find me on Facebook" href="//www.facebook.com/linuskinzel"></a></li>
 				 		  <li><a class="icon-youtube" title="Find me on YouTube" href="//www.youtube.com/user/senzism/"></a></li>
-				 		  <li><a class="icon-instagram" title="Find me on Instagram" href="//instagram.com/jaybee"></a></li>
-				 		  <li><a class="icon-linkedin" title="Find me on LinkedIn" href="//www.linkedin.com/in/4muladesign"></a></li>
+				 		  <li><a class="icon-instagram" title="Find me on Instagram" href="//instagram.com/linuskinzel"></a></li>
+				 		  <li><a class="icon-linkedin" title="Find me on LinkedIn" href="//www.linkedin.com/in/linuskinzel"></a></li>
 				 		</ul>	
-					  <p style="float: right;">&copy;2017 Linus Kinzel | All Rights Reserved</p>
-					</div>
+					  
+					</div> -->
+					<p id="copyright">&copy;2017 Linus Kinzel | All Rights Reserved</p>
 			  </div>	
 			</div>	 	
 		</div>

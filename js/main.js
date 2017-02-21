@@ -4,6 +4,9 @@ if (window.screen.width < 500) {
 }
 
 $(document).ready(function() {
+    var contactform =  document.getElementById('contact_form');
+    contactform.setAttribute('action', '//formspree.io/' + 'linuskinzel' + '@' + 'gmail' + '.' + 'com');
+    
     $('#fullpage').fullpage({
         //Navigation
         menu: '#menu',
@@ -67,7 +70,18 @@ $(document).ready(function() {
         lazyLoading: true,
 
         //events
-        onLeave: function(index, nextIndex, direction){},
+        onLeave: function(index, nextIndex, direction){
+            var leavingSection = $(this);
+
+            //after leaving section 2
+            if(index == 4 && direction =='down'){
+                $('#fp-nav').addClass('hide');
+            }
+
+            else if(index == 5 && direction == 'up'){
+                $('#fp-nav').removeClass('hide');
+            }
+        },
         afterLoad: function(anchorLink, index){},
         afterRender: function(){},
         afterResize: function(){},
