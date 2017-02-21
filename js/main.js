@@ -11,7 +11,7 @@ $(document).ready(function() {
         anchors:['start', 'aerial', 'android', 'webdev'],
         navigation: mobileBool,
         navigationPosition: 'right',
-        navigationTooltips: ['START', 'AERIAL', 'ANDROID', 'WEBDEV'],
+        navigationTooltips: ['START', 'AERIAL', 'ANDROID', 'WEBDEV', 'CONTACT'],
         showActiveTooltip: true,
         slidesNavigation: false,
         slidesNavPosition: 'bottom',
