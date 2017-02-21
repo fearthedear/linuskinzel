@@ -4,9 +4,7 @@ if (window.screen.width < 500) {
 }
 
 $(document).ready(function() {
-    var contactform =  document.getElementById('contact_form');
-    contactform.setAttribute('action', '//formspree.io/' + 'linuskinzel' + '@' + 'gmail' + '.' + 'com');
-    
+
     $('#fullpage').fullpage({
         //Navigation
         menu: '#menu',
@@ -88,5 +86,29 @@ $(document).ready(function() {
         afterResponsive: function(isResponsive){},
         afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
         onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
+    });
+
+    var contactform =  document.getElementById('contact_form');
+    //contactform.setAttribute('action', '//formspree.io/' + 'linuskinzel' + '@' + 'gmail' + '.' + 'com');
+
+    contactform.submit(function(e) {
+        e.preventDefault();
+        $.ajax({
+            url: '//formspree.io/' + 'linuskinzel' + '@' + 'gmail' + '.' + 'com',
+            method: 'POST',
+            data: $(this).serialize(),
+            dataType: 'json',
+            beforeSend: function() {
+                $contactForm.append('<div class="alert alert--loading">Sending message…</div>');
+            },
+            success: function(data) {
+                $contactForm.find('.alert--loading').hide();
+                $contactForm.append('<div class="alert alert--success">Message sent!</div>');
+            },
+            error: function(err) {
+                $contactForm.find('.alert--loading').hide();
+                $contactForm.append('<div class="alert alert--error">Ops, there was an error.</div>');
+            }
+        });
     });
 });
