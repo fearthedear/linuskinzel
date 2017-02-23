@@ -117,6 +117,11 @@ h1 {
 }
 
 #androidPage {
+	background: url(https://d2gp7la54gkohp.cloudfront.net/images/black.jpg);
+    background-size: cover;
+}
+
+#androidPage {
 	background-color: #171717;
 }
 
@@ -209,7 +214,7 @@ input#btn_send {
 
 .social-icon {
 	max-width: 50px;
-	margin: 20px 0px 0px 20px;
+	//margin: 20px 0px 0px 20px;
 }
 
 .inverted {
@@ -233,8 +238,11 @@ input#btn_send {
 	    text-align: left;
 	}
 
-	#social-media-col, #instagram-col {
+	#social-media-col {
 		margin-top: 25px;
+	}
+	#instagram-col {
+		display: none;
 	}
 }
 

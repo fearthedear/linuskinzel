@@ -5,6 +5,12 @@ if (window.screen.width < 500) {
 
 $(document).ready(function() {
 
+    if ($(window).width() < 514) {
+        $('#webdevPage').addClass('fp-auto-height');
+        $('#androidPage').addClass('fp-auto-height');
+        $('#aerialPage').addClass('fp-auto-height');
+    }
+
     $(".contactlink").click(function() {
         $('#fp-nav').addClass('hide');
     })
