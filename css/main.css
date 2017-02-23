@@ -203,13 +203,18 @@ input#btn_send {
 	display: none;
 }
 
-#instagram-col {
-	text-align: right;
+#social-media-col {
+	text-align: center;
 }
 
-// .icon-facebook {
-// 	background: url(https://d2gp7la54gkohp.cloudfront.net/images/fb_logo.png);
-// }
+.social-icon {
+	max-width: 50px;
+	margin: 20px 0px 0px 20px;
+}
+
+.inverted {
+	filter: invert(100%);
+}
 
 @media (max-width: 1150px) {
 	#menu {
@@ -217,10 +222,6 @@ input#btn_send {
 	}
 	#menu li {
 		font-size: 1em;
-	}
-	#instagram-col {
-		text-align: center;
-		padding-top: 30px;
 	}
 }
 
@@ -231,9 +232,17 @@ input#btn_send {
 	    margin-left: 10px;
 	    text-align: left;
 	}
+
+	#social-media-col, #instagram-col {
+		margin-top: 25px;
+	}
 }
 
 @media (max-width: 500px) {
+	#social-media-col, #instagram-col {
+		margin-top: 25px;
+	}
+
 	.brand {
 		left: 20px;
 		top: 10px;

@@ -5,6 +5,10 @@ if (window.screen.width < 500) {
 
 $(document).ready(function() {
 
+    $(".contactlink").click(function() {
+        $('#fp-nav').addClass('hide');
+    })
+
     $('#fullpage').fullpage({
         //Navigation
         menu: '#menu',
