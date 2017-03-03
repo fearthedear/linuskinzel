@@ -16,6 +16,7 @@ a:hover, a:visited, a:link, a:active {
 
 .underline {
 	text-decoration: underline;
+	display: inline-block;
 }
 
 h1 {

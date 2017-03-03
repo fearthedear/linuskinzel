@@ -19,10 +19,10 @@ $(document).ready(function() {
         //Navigation
         menu: '#menu',
         lockAnchors: false,
-        anchors:['start', 'aerial', 'android', 'webdev'],
+        anchors:['start', 'aerial', 'webdev', 'android'],
         navigation: mobileBool,
         navigationPosition: 'right',
-        navigationTooltips: ['START', 'AERIAL', 'ANDROID', 'WEBDEV', 'CONTACT'],
+        navigationTooltips: ['START', 'AERIAL', 'WEBDEV', 'ANDROID', 'CONTACT'],
         showActiveTooltip: true,
         slidesNavigation: false,
         slidesNavPosition: 'bottom',
