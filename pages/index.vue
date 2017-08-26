@@ -1,27 +1,28 @@
 <template>
   <section class="container background">
     <div>
-      <logo/>
       <h1 class="title">
         linuskinzel
       </h1>
-      <h2 class="subtitle">
-        personal website
-      </h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
-        <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
-      </div>
+    </div>
+    <div>
+      <aboutBox />
+    </div>
+    <div class="links">
+     
+    </div>
     </div>
   </section>
 </template>
 
 <script>
 import Logo from '~/components/Logo.vue'
+import AboutBox from '~/components/AboutBox.vue'
 
 export default {
   components: {
-    Logo
+    Logo,
+    AboutBox
   }
 }
 </script>
@@ -30,16 +31,18 @@ export default {
 .container {
   min-height: 100vh;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
+  height: 100%;
 }
 
 .title {
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
   display: block;
   font-weight: 300;
-  font-size: 100px;
+  font-size: 80px;
   color: #35495e;
   letter-spacing: 1px;
 }
@@ -57,8 +60,14 @@ export default {
 }
 
 .background {
-    background: url(~/assets/images/background.jpg);
-    background-size: cover;
-    background-position: center
+  background: url(~/assets/images/background.jpg);
+  background-size: cover;
+  background-position: center
+}
+
+@media screen and (max-width: 374px) {
+  .title {
+    font-size: 50px
+  }  
 }
 </style>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="61px" height="60px" viewBox="0 0 61 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="50%" y1="99.5555644%" x2="50%" y2="3.34821429%" id="linearGradient-1">
+            <stop stop-color="#006DFF" offset="0%"></stop>
+            <stop stop-color="#00C5FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Realese-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Realese_user_page-FINAL" transform="translate(-67.000000, -398.000000)">
+            <g id="1" transform="translate(67.000000, 398.000000)">
+                <circle id="Oval-2" fill="url(#linearGradient-1)" cx="30.5" cy="30" r="30"></circle>
+                <path d="M30.3950617,14 C21.0641605,14 13.5,21.0473395 13.5,29.7407407 C13.5,34.6943519 15.9568148,39.1128827 19.7962963,41.9982654 L19.7962963,48 L25.5489074,44.8232037 C27.0841543,45.2507222 28.7105926,45.4814815 30.3950617,45.4814815 C39.725963,45.4814815 47.2901235,38.434142 47.2901235,29.7407407 C47.2901235,21.0473395 39.725963,14 30.3950617,14 L30.3950617,14 Z M32.0740741,35.1975309 L27.7716049,30.5802469 L19.3765432,35.1975309 L28.6111111,25.3333333 L33.0185185,29.9506173 L41.308642,25.3333333 L32.0740741,35.1975309 L32.0740741,35.1975309 Z" id="Shape" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>
