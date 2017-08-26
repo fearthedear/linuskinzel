@@ -1,7 +1,7 @@
 <template>
 	<div class="root">
 		<div class="portrait">
-			<img class="portrait_img" src="~/assets/images/me.jpg" />
+			<img class="portrait_img" src="~/assets/images/me-small.jpg" />
 		</div>
 		<p>
 			Hey. I'm frontend dev and product manager at <a href="https://dahmakan.com" target="_blank">dahmakan</a>.
