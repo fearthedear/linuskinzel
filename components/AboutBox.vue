@@ -25,7 +25,7 @@
 					<img src="~/assets/images/github.png">
 					<span>Github</span>
 				</a>
-				<a href="https://instagram.com/linuskinzel" target="_blank">
+				<a href="https://www.instagram.com/linuskinzel" target="_blank">
 					<img src="~/assets/images/instagram.svg">
 					<span>Instagram</span>
 				</a>
