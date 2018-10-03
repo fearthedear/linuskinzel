@@ -10,10 +10,6 @@
 			<br><br>
 			Hit me up
 			<div class="buttons">
-				<a href="https://m.me/lkinzel" target="_blank">
-					<img src="~/assets/images/messenger.svg">
-					<span>Messenger</span>
-				</a>
 				<a href="https://telegram.me/linusk1" target="_blank">
 					<img src="~/assets/images/telegram.svg">
 					<span>Telegram</span>
