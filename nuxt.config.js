@@ -7,9 +7,9 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Web Dev and Product Manager at dahmakan. Living in KL.' },
+      { hid: 'description', name: 'description', content: "Head of Product at dahmakan, South East Asia's leading cloud kitchen system." },
       { property: 'og:title', content: 'Linus Kinzel' },
-      { property: 'og:description', content:'Web Dev and Product Manager at dahmakan. Living in KL.' },
+      { property: 'og:description', content:"Head of Product at dahmakan, South East Asia's leading cloud kitchen system." },
       { property: 'og:type', content: 'website' },
       { property: 'og:url', content: 'https://www.linuskinzel.com' }
     ],
