@@ -4,8 +4,8 @@
 			<img class="portrait_img" src="~/assets/images/me-small.jpg" />
 		</div>
 		<p>
+			<br>
 			Hey. I'm Head of Product at <a href="https://dahmakan.com" target="_blank">dahmakan</a>, South East Asia's leading cloud kitchen system.
-			<br><br>
 			<br><br>
 			Hit me up
 			<div class="buttons">
