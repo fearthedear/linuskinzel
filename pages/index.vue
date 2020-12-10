@@ -1,17 +1,14 @@
 <template>
   <section class="container background">
     <div>
-      <h1 class="title">
+      <h1 style="margin-top: 30px" class="title">
         linuskinzel
       </h1>
     </div>
     <div>
       <aboutBox />
     </div>
-    <div class="links">
-     
-    </div>
-    </div>
+    <div class="links"></div>
   </section>
 </template>
 

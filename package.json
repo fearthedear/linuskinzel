@@ -2,7 +2,7 @@
   "name": "linuskinzel",
   "version": "1.0.0",
   "description": "personal website",
-  "author": "Linus Kinzel <linuskinzel@gmail.com>",
+  "author": "Linus Kinzel <contact@linuskinzel.com>",
   "private": true,
   "scripts": {
     "dev": "nuxt",

@@ -5,16 +5,16 @@
 		</div>
 		<p>
 			<br>
-			Hey. I'm Head of Product at <a href="https://dahmakan.com" target="_blank">dahmakan</a>, South East Asia's leading cloud kitchen system.
+			Hey. I'm Head of Product at <a href="https://popmeals.com.my" target="_blank">Pop Meals (formerly dahmakan)</a>, South East Asia's leading cloud kitchen system.
 			<br><br>
-			Hit me up
+			Talk to me
 			<div class="buttons">
 				<a href="https://telegram.me/linusk1" target="_blank">
 					<img src="~/assets/images/telegram.svg">
 					<span>Telegram</span>
 				</a>
 			</div>
-			<p>Or find me here</p>
+			<!-- <p>Or find me here</p>
 			<div class="buttons">
 				<a href="https://github.com/fearthedear" target="_blank">
 					<img src="~/assets/images/github.png">
@@ -28,7 +28,7 @@
 					<img src="~/assets/images/linkedin.png">
 					<span>Linkedin</span>
 				</a>
-			</div>
+			</div> -->
 		</p>
 	</div>		
 </template>
