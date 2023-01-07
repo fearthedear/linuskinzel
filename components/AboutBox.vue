@@ -5,7 +5,7 @@
 		</div>
 		<p>
 			<br>
-			Hey. I'm Head of Product at <a href="https://popmeals.com.my" target="_blank">Pop Meals (formerly dahmakan)</a>, where we're building Southeast Asia's leading Food Tech company. 
+			Hey. I'm VP Product at <a href="https://popmeals.com.my" target="_blank">Pop Meals (formerly dahmakan)</a>, where we're building Southeast Asia's leading Food Tech company. 
 			<br /><br />I also do web3 and Solidity projects on the side, for example <a href="http://smartpools.netlify.app" target="_blank">a decentralized, trustless investment pooling platform.</a>
 			<br><br>
 			Talk to me
